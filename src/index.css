@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@layer base {
+  *, :root {
+    @apply p-0 m-0 box-border relative;
+  }
+  
+  body {
+    @apply bg-[#141414] text-white;
+  }
+}
